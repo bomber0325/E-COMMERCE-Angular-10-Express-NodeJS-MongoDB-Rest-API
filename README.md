@@ -15,7 +15,7 @@ Using Postman, Insomnia, Talend API Tester, etc to feed the api.
 
 ## Usage
 ```html
-$ git clone https://github.com/E-COMMERCE-Angular-10-Express-NodeJS-MongoDB-Rest-API.gif [NAME APP] 
+$ git clone https://github.com/solov123.gif [NAME APP] 
 
 $ npm install
 
@@ -128,7 +128,7 @@ module.exports = {
 
 ```javascript
 ...
- const Order = require("../models/Order");
+const Order = require("../models/Order");
 const Product = require("../models/Product");
 
 const getOrders = (req, res) => {
@@ -247,13 +247,6 @@ const OrderSchema = new Schema({
 module.exports = mongoose.model("Order", OrderSchema);
 ...
 ```
-
-
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/DanielArturoAlejoAlvarez/E-COMMERCE-Angular-10-Express-NodeJS-MongoDB-Rest-API. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
 
 ## License
 
